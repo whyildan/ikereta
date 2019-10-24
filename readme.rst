@@ -1,14 +1,8 @@
 ###################
-iKereta
+iKereta - Pemesanan Tiket Kereta Api Online
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Kalau dulu saya mengakses situs resmi PT. Kereta Api Indonesia atau datang ke stasiun untuk beli tiket kereta api. Sekarang, kita bisa booking tiket kereta api secara online. Ketika sedang bersantai bareng keluarga di rumah, saat di kantor atau dimanapun dan kapanpun tanpa perlu repot-repot mendatangi stasiun seperti yang dulu-dulu. Mulai dari pesan tiket kereta api Kelas Ekonomi, Kelas Bisnis, Kelas Eksekutif hingga yang Luxury.
 
 *******************
 Release Information
