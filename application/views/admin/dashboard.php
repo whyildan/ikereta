@@ -9,6 +9,7 @@
 
      <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
 
 </head>
 <body>
@@ -23,43 +24,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url() ?>">Home <span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item active">
+                        <a class="nav-link" href="<?= base_url() ?>">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('konfirmasi') ?>">Konfirmasi Pembayaran</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?= base_url('login') ?>">Login</a>
+                        <a class="nav-link active" href="<?= base_url('logout') ?>">Logout</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-
-    <div class="container-fluid">
-        <div class="row justify-content-center mt-5">
-            <div class="col-lg-5">
-                <div class="card">
-                    <div class="card-header text-white bg-dark">
-                        Konfirmasi Pembayaran
-                    </div>
-                    <div class="card-body">
-                        <form action="" method="post">
-                            <div class="form-group">
-                                <label for="">Kode Konfirmasi</label>
-                                <input class="form-control" type="text" name="kode_konfirmasi" id="">
-                            </div>
-                            <button class="btn btn-dark float-right" type="submit">Cek</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

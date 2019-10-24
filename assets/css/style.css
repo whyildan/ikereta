@@ -7,6 +7,7 @@
 .jumbotron h1, p{
     color: white;
     font-weight: 600;
+    text-align: center;
 }
 
 .info-panel{
@@ -15,4 +16,12 @@
     margin-top: -90px;
     background-color: white;
     padding: 30px;
+}
+
+.app-jumbotron{
+    transform: translate(0%,50%);
+}
+
+.login{
+    transform: translate(0%,30%);
 }

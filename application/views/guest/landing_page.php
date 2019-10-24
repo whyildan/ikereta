@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tiket Kereta Api</title>
+    <title><?= $title ?></title>
 
      <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
@@ -24,12 +24,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="<?= base_url() ?>">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('konfirmasi') ?>">Konfirmasi Pembayaran</a>
-                </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="<?= base_url() ?>">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('konfirmasi') ?>">Konfirmasi Pembayaran</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="<?= base_url('login') ?>">Login</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -37,8 +42,10 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Selamat datang di iKereta!</h1>
-            <p class="lead">Anda dapat melakukan pemesanan Tiket Kereta Api Online dengan mudah</p>
+            <div class="app-jumbotron">
+                <h1 class="display-4">Selamat datang di iKereta!</h1>
+                <p class="lead">Anda dapat melakukan pemesanan Tiket Kereta Api Online dengan mudah</p>
+            </div>
         </div>
     </div>
     

@@ -51,5 +51,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'guest';
 $route['konfirmasi'] = 'guest/konfirmasi';
+
+$route['login'] = 'admin/keLogin';
+$route['logout'] = 'admin/logout';
+$route['prosesLogin'] = 'admin/login';
+
+$route['admin/dashboard'] = 'admin/dashboard';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

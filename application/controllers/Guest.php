@@ -21,11 +21,15 @@ class Guest extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('guest/landing_page');
+		$data['title'] = "iKereta - Home";
+
+		$this->load->view('guest/landing_page', $data);
 	}
 
 	public function konfirmasi()
 	{
-		$this->load->view('guest/konfirmasi_page');
+		$data['title'] = "iKereta - Konfirmasi";
+
+		$this->load->view('guest/konfirmasi_page', $data);
 	}
 }
